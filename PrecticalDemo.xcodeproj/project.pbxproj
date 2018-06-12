@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F46C4D906A1A5789CF4BCB3 /* Pods_PrecticalDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EDC8CD58F9421A0B0596AEC /* Pods_PrecticalDemo.framework */; };
 		9FD33E0B20C79ECF00CDE39D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E0A20C79ECF00CDE39D /* AppDelegate.swift */; };
-		9FD33E0D20C79ECF00CDE39D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E0C20C79ECF00CDE39D /* ViewController.swift */; };
 		9FD33E1020C79ECF00CDE39D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD33E0E20C79ECF00CDE39D /* Main.storyboard */; };
 		9FD33E1320C79ECF00CDE39D /* PrecticalDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E1120C79ECF00CDE39D /* PrecticalDemo.xcdatamodeld */; };
 		9FD33E1520C79ED200CDE39D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FD33E1420C79ED200CDE39D /* Assets.xcassets */; };
 		9FD33E1820C79ED200CDE39D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD33E1620C79ED200CDE39D /* LaunchScreen.storyboard */; };
+		9FD33E2820C7A23000CDE39D /* NearBySerachVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E2020C7A23000CDE39D /* NearBySerachVC.swift */; };
+		9FD33E2920C7A23000CDE39D /* NearBySearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E2120C7A23000CDE39D /* NearBySearchTableViewCell.swift */; };
+		9FD33E2A20C7A23000CDE39D /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E2220C7A23000CDE39D /* HeaderTableViewCell.swift */; };
+		9FD33E2B20C7A23000CDE39D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E2420C7A23000CDE39D /* Reachability.swift */; };
+		9FD33E2C20C7A23000CDE39D /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E2520C7A23000CDE39D /* GlobalConstants.swift */; };
+		9FD33E2D20C7A23000CDE39D /* WebServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E2720C7A23000CDE39D /* WebServices.swift */; };
+		9FD33E3320C7A37C00CDE39D /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E2F20C7A37C00CDE39D /* CoreDataStack.swift */; };
+		9FD33E3520C7A37C00CDE39D /* Utility_CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E3220C7A37C00CDE39D /* Utility_CoreData.swift */; };
+		9FD33E3C20C7DD1300CDE39D /* SectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E3B20C7DD1300CDE39D /* SectionModel.swift */; };
+		9FD33E3E20C7DD1F00CDE39D /* ExpandableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD33E3D20C7DD1F00CDE39D /* ExpandableHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EDC8CD58F9421A0B0596AEC /* Pods_PrecticalDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrecticalDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD33E0720C79ECF00CDE39D /* PrecticalDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrecticalDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD33E0A20C79ECF00CDE39D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9FD33E0C20C79ECF00CDE39D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9FD33E0F20C79ECF00CDE39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9FD33E1220C79ECF00CDE39D /* PrecticalDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrecticalDemo.xcdatamodel; sourceTree = "<group>"; };
 		9FD33E1420C79ED200CDE39D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FD33E1720C79ED200CDE39D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FD33E1920C79ED200CDE39D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD33E2020C7A23000CDE39D /* NearBySerachVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearBySerachVC.swift; sourceTree = "<group>"; };
+		9FD33E2120C7A23000CDE39D /* NearBySearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearBySearchTableViewCell.swift; sourceTree = "<group>"; };
+		9FD33E2220C7A23000CDE39D /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		9FD33E2420C7A23000CDE39D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		9FD33E2520C7A23000CDE39D /* GlobalConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		9FD33E2720C7A23000CDE39D /* WebServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServices.swift; sourceTree = "<group>"; };
+		9FD33E2F20C7A37C00CDE39D /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		9FD33E3220C7A37C00CDE39D /* Utility_CoreData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility_CoreData.swift; sourceTree = "<group>"; };
+		9FD33E3B20C7DD1300CDE39D /* SectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionModel.swift; sourceTree = "<group>"; };
+		9FD33E3D20C7DD1F00CDE39D /* ExpandableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandableHeaderView.swift; sourceTree = "<group>"; };
+		AC1A4BE29307C233EE4E65C2 /* Pods-PrecticalDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrecticalDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrecticalDemo/Pods-PrecticalDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EC8061486E046B5B55AB97B4 /* Pods-PrecticalDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrecticalDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrecticalDemo/Pods-PrecticalDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F46C4D906A1A5789CF4BCB3 /* Pods_PrecticalDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CBADA5C00D3546372BFAC31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC1A4BE29307C233EE4E65C2 /* Pods-PrecticalDemo.debug.xcconfig */,
+				EC8061486E046B5B55AB97B4 /* Pods-PrecticalDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9FD33DFE20C79ECF00CDE39D = {
 			isa = PBXGroup;
 			children = (
 				9FD33E0920C79ECF00CDE39D /* PrecticalDemo */,
 				9FD33E0820C79ECF00CDE39D /* Products */,
+				5CBADA5C00D3546372BFAC31 /* Pods */,
+				F6A51CCDAE0DF9ADF0A18DA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,72 @@
 		9FD33E0920C79ECF00CDE39D /* PrecticalDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9FD33E3620C7DC9500CDE39D /* ExpandableHeaderView */,
+				9FD33E2320C7A23000CDE39D /* Utility */,
+				9FD33E2E20C7A37C00CDE39D /* Database */,
+				9FD33E2620C7A23000CDE39D /* WebService Call */,
+				9FD33E1F20C7A23000CDE39D /* NearBySearch */,
 				9FD33E0A20C79ECF00CDE39D /* AppDelegate.swift */,
-				9FD33E0C20C79ECF00CDE39D /* ViewController.swift */,
 				9FD33E0E20C79ECF00CDE39D /* Main.storyboard */,
 				9FD33E1420C79ED200CDE39D /* Assets.xcassets */,
 				9FD33E1620C79ED200CDE39D /* LaunchScreen.storyboard */,
 				9FD33E1920C79ED200CDE39D /* Info.plist */,
-				9FD33E1120C79ECF00CDE39D /* PrecticalDemo.xcdatamodeld */,
 			);
 			path = PrecticalDemo;
+			sourceTree = "<group>";
+		};
+		9FD33E1F20C7A23000CDE39D /* NearBySearch */ = {
+			isa = PBXGroup;
+			children = (
+				9FD33E2020C7A23000CDE39D /* NearBySerachVC.swift */,
+				9FD33E2120C7A23000CDE39D /* NearBySearchTableViewCell.swift */,
+				9FD33E2220C7A23000CDE39D /* HeaderTableViewCell.swift */,
+			);
+			path = NearBySearch;
+			sourceTree = "<group>";
+		};
+		9FD33E2320C7A23000CDE39D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				9FD33E2420C7A23000CDE39D /* Reachability.swift */,
+				9FD33E2520C7A23000CDE39D /* GlobalConstants.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		9FD33E2620C7A23000CDE39D /* WebService Call */ = {
+			isa = PBXGroup;
+			children = (
+				9FD33E2720C7A23000CDE39D /* WebServices.swift */,
+			);
+			path = "WebService Call";
+			sourceTree = "<group>";
+		};
+		9FD33E2E20C7A37C00CDE39D /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				9FD33E2F20C7A37C00CDE39D /* CoreDataStack.swift */,
+				9FD33E3220C7A37C00CDE39D /* Utility_CoreData.swift */,
+				9FD33E1120C79ECF00CDE39D /* PrecticalDemo.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		9FD33E3620C7DC9500CDE39D /* ExpandableHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				9FD33E3D20C7DD1F00CDE39D /* ExpandableHeaderView.swift */,
+				9FD33E3B20C7DD1300CDE39D /* SectionModel.swift */,
+			);
+			path = ExpandableHeaderView;
+			sourceTree = "<group>";
+		};
+		F6A51CCDAE0DF9ADF0A18DA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EDC8CD58F9421A0B0596AEC /* Pods_PrecticalDemo.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FD33E1C20C79ED200CDE39D /* Build configuration list for PBXNativeTarget "PrecticalDemo" */;
 			buildPhases = (
+				3BEB910839A5FCF08365B106 /* [CP] Check Pods Manifest.lock */,
 				9FD33E0320C79ECF00CDE39D /* Sources */,
 				9FD33E0420C79ECF00CDE39D /* Frameworks */,
 				9FD33E0520C79ECF00CDE39D /* Resources */,
+				10287EA835F5D364765A7715 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +226,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10287EA835F5D364765A7715 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrecticalDemo/Pods-PrecticalDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrecticalDemo/Pods-PrecticalDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BEB910839A5FCF08365B106 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrecticalDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9FD33E0320C79ECF00CDE39D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD33E2B20C7A23000CDE39D /* Reachability.swift in Sources */,
+				9FD33E3E20C7DD1F00CDE39D /* ExpandableHeaderView.swift in Sources */,
 				9FD33E1320C79ECF00CDE39D /* PrecticalDemo.xcdatamodeld in Sources */,
-				9FD33E0D20C79ECF00CDE39D /* ViewController.swift in Sources */,
 				9FD33E0B20C79ECF00CDE39D /* AppDelegate.swift in Sources */,
+				9FD33E3520C7A37C00CDE39D /* Utility_CoreData.swift in Sources */,
+				9FD33E3C20C7DD1300CDE39D /* SectionModel.swift in Sources */,
+				9FD33E3320C7A37C00CDE39D /* CoreDataStack.swift in Sources */,
+				9FD33E2920C7A23000CDE39D /* NearBySearchTableViewCell.swift in Sources */,
+				9FD33E2A20C7A23000CDE39D /* HeaderTableViewCell.swift in Sources */,
+				9FD33E2C20C7A23000CDE39D /* GlobalConstants.swift in Sources */,
+				9FD33E2820C7A23000CDE39D /* NearBySerachVC.swift in Sources */,
+				9FD33E2D20C7A23000CDE39D /* WebServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +427,7 @@
 		};
 		9FD33E1D20C79ED200CDE39D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC1A4BE29307C233EE4E65C2 /* Pods-PrecticalDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +446,7 @@
 		};
 		9FD33E1E20C79ED200CDE39D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC8061486E046B5B55AB97B4 /* Pods-PrecticalDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
